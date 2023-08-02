@@ -116,6 +116,7 @@ const Products = () => {
               </article>
             );
           })}
+
           {/* <button
           className="prev"
           onClick={() => {
@@ -201,6 +202,11 @@ const Products = () => {
               </Link>
             </div>
           </div> */}
+        </div>
+        <div className="Shop_Now_Button_Prods_div">
+          <a href="https://deodap.in/search?q=Vishwas">
+            <button className="Shop_Now_Button_Prods">Shop Now</button>
+          </a>
         </div>
       </div>
     </>
