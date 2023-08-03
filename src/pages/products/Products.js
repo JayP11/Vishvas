@@ -203,11 +203,11 @@ const Products = () => {
             </div>
           </div> */}
         </div>
-        <div className="Shop_Now_Button_Prods_div">
+        {/* <div className="Shop_Now_Button_Prods_div">
           <a href="https://deodap.in/search?q=Vishwas">
             <button className="Shop_Now_Button_Prods">Shop Now</button>
           </a>
-        </div>
+        </div> */}
       </div>
     </>
   );

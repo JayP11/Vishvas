@@ -43,6 +43,11 @@ const Navbar = () => {
                   Contact
                 </Link>
               </li>
+              {/* <div className="Shop_Now_Button_Prods_div"> */}
+              <a href="https://deodap.in/search?q=Vishwas">
+                <button className="Shop_Now_Button_Prods">Shop Now</button>
+              </a>
+              {/* </div> */}
             </ul>
             <div className="nav-btn-icon-part">
               {toggleMenu === false ? (
@@ -52,8 +57,7 @@ const Navbar = () => {
               ) : (
                 <button
                   className="nav-btn"
-                  onClick={() => setToggleMenu(false)}
-                >
+                  onClick={() => setToggleMenu(false)}>
                   <AiOutlineClose className="nav-btn-icon" />
                 </button>
               )}
@@ -69,8 +73,7 @@ const Navbar = () => {
                 <Link
                   to={"/"}
                   onClick={() => setToggleMenu(false)}
-                  className="mobile-nav-link"
-                >
+                  className="mobile-nav-link">
                   Home
                 </Link>
               </li>
@@ -78,8 +81,7 @@ const Navbar = () => {
                 <Link
                   to={"/about"}
                   onClick={() => setToggleMenu(false)}
-                  className="mobile-nav-link"
-                >
+                  className="mobile-nav-link">
                   About
                 </Link>
               </li>
@@ -87,8 +89,7 @@ const Navbar = () => {
                 <Link
                   to={"/products"}
                   onClick={() => setToggleMenu(false)}
-                  className="mobile-nav-link"
-                >
+                  className="mobile-nav-link">
                   Products
                 </Link>
               </li>
@@ -96,8 +97,7 @@ const Navbar = () => {
                 <Link
                   to={"/recipes"}
                   onClick={() => setToggleMenu(false)}
-                  className="mobile-nav-link"
-                >
+                  className="mobile-nav-link">
                   Recipes
                 </Link>
               </li>{" "}
@@ -105,9 +105,18 @@ const Navbar = () => {
                 <Link
                   to={"/contactus"}
                   onClick={() => setToggleMenu(false)}
-                  className="mobile-nav-link"
-                >
+                  className="mobile-nav-link">
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={"/contactus"}
+                  onClick={() => setToggleMenu(false)}
+                  className="mobile-nav-link">
+                  <a href="https://deodap.in/search?q=Vishwas">
+                    <button className="Shop_Now_Button_Prods">Shop Now</button>
+                  </a>
                 </Link>
               </li>
             </ul>

@@ -97,6 +97,7 @@
   height: 35px;
   width: 110px;
   font-size: 16px;
+  cursor: pointer;
   text-transform: uppercase;
   font-family: var(--font-base), "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
